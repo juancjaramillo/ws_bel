@@ -2,7 +2,7 @@
 
 require 'Pest/Pest.php';
 
-class Validation {
+class Validation {  
 	
 	function validate_digits($value){
 		return(preg_match("/^\d*$/", $value) ? true : 'El campo debe ser númerico');		

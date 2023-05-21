@@ -6,9 +6,9 @@ require 'Pest/Pest.php';
 \Slim\Slim::registerAutoloader();
 
 $middleware_api_url = 'http://10.1.xx.xx/xx/middleware/api';
-$middleware_api_token = 'Q1JNQmVsY29ycA==';
+$middleware_api_token = 'Q1Jxxxxxxxxxxx';
 
-$ws = new \Slim\Slim();
+$ws = new \Slim\Slim();  
 
 $ws->response->headers->set("Content-type", "application/json;charset=ISO-8859-1");
 $ws->response->headers->set('Access-Control-Allow-Origin', '*');
